@@ -1,3 +1,25 @@
+.navbar ul {
+  list-style: none;
+  overflow: hidden;
+  top: 10px;
+  width: 100%;
+}
+
+.navbar ul li {
+  display:inline-flex;
+  flex-direction: column;
+  margin: 10px;
+  font-size: 40px;
+}
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar ul li a:hover {
+  font-weight: bold;
+}
 .blue-text {
   color: white;
   font-weight: bold;
@@ -21,6 +43,7 @@ input{
   top:270px;
 }
 
+
 button{
   margin: 0 5px;
   padding: 12px 20px;
@@ -34,4 +57,33 @@ button{
   position: relative;
   left:520px;
   top:270px;
+}
+
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background:pink;
+}
+
+
+#search-result article{
+  border: 5px solid white;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex: 33.3%;
+}
+
+#search-result article p {
+  margin-left: 10px;
+}
+#search-result article h3 {
+  margin-left: 5px;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
 }
