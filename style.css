@@ -1,0 +1,37 @@
+.blue-text {
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+  position:relative;
+  left:680px;
+  top:300px;
+}
+
+input{
+  width: 30%;
+  padding: 13px;
+  padding-Left: 45px;
+  padding-right: 60px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+  position: relative;
+  left:520px;
+  top:270px;
+}
+
+button{
+  margin: 0 5px;
+  padding: 12px 20px;
+  color: #555;
+  font-size:14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  outline: none;
+  position: relative;
+  left:520px;
+  top:270px;
+}
