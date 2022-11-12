@@ -28,9 +28,8 @@ const url = 'https://api.currentsapi.services/v1/search?apiKey=' + apiKey + '&ke
   const news = data.news;
   for (var i = 0; i < 10; i++) {
     const link = document.createElement('a');
-    link.classList.add('new-article');
+    link.classList.add('articles');
     link.href = news[i].url;
-    //let setting = browser.cookies.set(link.href)
     const title = document.createElement('h3');
     title.textContent = news[i].title;
     const description = document.createElement('p');

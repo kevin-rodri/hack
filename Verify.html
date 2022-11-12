@@ -9,7 +9,7 @@
     <div class="navbar">
         <ul>
           <li><a href = "Title.html" title = "Main page" class = "navbar">Home</a></li>
-          <li><a href=  "Verify.html" title = "About My Topic" class = "navbar" >Verify URL</a></li>
+          <li><a href=  "Verify.html" title = "About My Topic" class = "navbar" >Securify</a></li>
           </ul>
      </div>
     <style>
@@ -17,11 +17,14 @@
       background-image: url('Background.jpg');
     }
     </style>
-    <h1 class="blue-text">Searchify</h1>
+    <h1 class="blue-text">Securify</h1>
     <form id = "search-items">
       <input type="text" id="name">
-      <button type="button" id = "search-button" onclick="getCookies()">Search</button>
+      <button type="button" id = "search-button" onclick="validURL()">Generate</button>
+      <!-- http://domain.com/wp-content/uploads/2020/02/5-2.png&#8221-->
+      <!-- https://www.formula1.com-->
   </form>
+  <h4>Enter a URL</h4>
   <div id = "search-result">
 
   </div>

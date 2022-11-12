@@ -66,10 +66,25 @@ button{
   background:pink;
 }
 
+a {
+color: white;
+text-decoration: none;
+}
+
+#search-result{
+margin-top: 300px;
+}
+
+h4{
+  color: white;
+  text-align: center;
+  margin-top: 280px;
+}
+
 
 #search-result article{
   border: 5px solid white;
-  margin: 20px;
+  margin:15px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
